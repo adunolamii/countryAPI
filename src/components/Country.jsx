@@ -5,6 +5,7 @@ import './Country.css'
 function Country() {
   return (
     <div>
+      <div className='main'>
       <div className='container'>
 
       
@@ -30,7 +31,7 @@ function Country() {
             })
         }
         </div>
-
+        </div>
         </div>
     </div>
   )
