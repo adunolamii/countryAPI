@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 375px;
+    height: 600px;
+    border: 1px solid red;
+}
+.divContainer{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 5px;
+}
+
+@media(min-width:400px){
+    .container{
+        width: 1355px;
+        height: 630px;
+        border: 2px solid green;
+    }
+}
