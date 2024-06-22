@@ -4,8 +4,9 @@ import './Country.css'
 
 function Country() {
   return (
-    <div>
-      <div className='main'>
+    <div  className='main'>
+      <div className='main2'>
+      <h1 className='country'>COUNTRY API</h1>
       <div className='container'>
 
       
