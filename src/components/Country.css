@@ -34,14 +34,14 @@
 .main{
     width: 450px;
     height: 950px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: auto;
         
 }
 .main2{
     width: 450px;
     height: 1000px;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     margin: auto;
         
 }
@@ -101,7 +101,7 @@
     .main{
         width: 1350px;
         height: 950px;
-        border: 2px solid purple;
+        /* border: 2px solid purple; */
         
        
     }
@@ -142,7 +142,6 @@
         grid-template-columns:repeat(4,1fr);
         box-shadow: inset;
         gap: 5px;
-        
-       
+     
     }
 }
